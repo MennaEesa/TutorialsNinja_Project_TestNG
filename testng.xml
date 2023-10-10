@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TutorialsNinja_Project">
+<suite-files>
+    <suite-file path="RunOnChrome.xml"/>
+    <suite-file path="RunOnEdge.xml"/>
+    <suite-file path="RunOnFireFox.xml"/>
+</suite-files>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TutorialsNinja_Project">
+    <listeners>
+        <listener class-name="listener.Listener"></listener>
+    </listeners>
+    <parameter name="browser" value=""/>
+    <test  name="Check Register with Valid Data">
+        <classes>
+            <class name="TestCases.TC01_Registration">
+                <methods>
+                    <include name="registerNewUser_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
