@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-12T20:50:16 EET" name="TutorialsNinja_Project (1)" finished-at="2023-10-12T20:51:05 EET" duration-ms="49337">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T20:50:16 EET" name="Check Register with Valid Data" finished-at="2023-10-12T20:51:05 EET" duration-ms="49337">
+      <class name="TestCases.TC01_Registration">
+        <test-method is-config="true" signature="setupChromeDriver(java.lang.String)[pri:0, instance:TestCases.TC01_Registration@73e1ecd0]" started-at="2023-10-12T20:50:16 EET" name="setupChromeDriver" finished-at="2023-10-12T20:50:41 EET" duration-ms="24933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupChromeDriver -->
+        <test-method signature="registerNewUser_P()[pri:1, instance:TestCases.TC01_Registration@73e1ecd0]" started-at="2023-10-12T20:50:41 EET" name="registerNewUser_P" description="Register with valid data" finished-at="2023-10-12T20:50:57 EET" duration-ms="16168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser_P -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:TestCases.TC01_Registration@73e1ecd0]" started-at="2023-10-12T20:50:57 EET" name="quite" finished-at="2023-10-12T20:51:05 EET" duration-ms="8214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- TestCases.TC01_Registration -->
+    </test> <!-- Check Register with Valid Data -->
+  </suite> <!-- TutorialsNinja_Project (1) -->
+  <suite started-at="2023-10-12T20:51:05 EET" name="TutorialsNinja_Project (2)" finished-at="2023-10-12T20:52:01 EET" duration-ms="55292">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T20:51:05 EET" name="Check Register with Valid Data" finished-at="2023-10-12T20:52:01 EET" duration-ms="55292">
+      <class name="TestCases.TC01_Registration">
+        <test-method is-config="true" signature="setupChromeDriver(java.lang.String)[pri:0, instance:TestCases.TC01_Registration@7ea71fc2]" started-at="2023-10-12T20:51:05 EET" name="setupChromeDriver" finished-at="2023-10-12T20:51:34 EET" duration-ms="28831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupChromeDriver -->
+        <test-method signature="registerNewUser_P()[pri:1, instance:TestCases.TC01_Registration@7ea71fc2]" started-at="2023-10-12T20:51:34 EET" name="registerNewUser_P" description="Register with valid data" finished-at="2023-10-12T20:51:46 EET" duration-ms="11916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser_P -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:TestCases.TC01_Registration@7ea71fc2]" started-at="2023-10-12T20:51:46 EET" name="quite" finished-at="2023-10-12T20:52:01 EET" duration-ms="14526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- TestCases.TC01_Registration -->
+    </test> <!-- Check Register with Valid Data -->
+  </suite> <!-- TutorialsNinja_Project (2) -->
+  <suite started-at="2023-10-12T20:52:01 EET" name="TutorialsNinja_Project" finished-at="2023-10-12T20:52:01 EET" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- TutorialsNinja_Project -->
+  <suite started-at="2023-10-12T20:49:38 EET" name="TutorialsNinja_Project (0)" finished-at="2023-10-12T20:50:16 EET" duration-ms="38213">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T20:49:38 EET" name="Check Register with Valid Data" finished-at="2023-10-12T20:50:16 EET" duration-ms="38213">
+      <class name="TestCases.TC01_Registration">
+        <test-method is-config="true" signature="setupChromeDriver(java.lang.String)[pri:0, instance:TestCases.TC01_Registration@20cff21e]" started-at="2023-10-12T20:49:38 EET" name="setupChromeDriver" finished-at="2023-10-12T20:49:55 EET" duration-ms="16999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupChromeDriver -->
+        <test-method signature="registerNewUser_P()[pri:1, instance:TestCases.TC01_Registration@20cff21e]" started-at="2023-10-12T20:49:55 EET" name="registerNewUser_P" description="Register with valid data" finished-at="2023-10-12T20:50:07 EET" duration-ms="12262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser_P -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:TestCases.TC01_Registration@20cff21e]" started-at="2023-10-12T20:50:08 EET" name="quite" finished-at="2023-10-12T20:50:16 EET" duration-ms="8094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- TestCases.TC01_Registration -->
+    </test> <!-- Check Register with Valid Data -->
+  </suite> <!-- TutorialsNinja_Project (0) -->
+</testng-results>

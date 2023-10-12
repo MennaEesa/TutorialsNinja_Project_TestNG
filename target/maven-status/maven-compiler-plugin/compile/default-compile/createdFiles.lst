@@ -1,0 +1,8 @@
+Pages\P01_Registration.class
+utility\NumberGenerator.class
+Pages\P03_Home.class
+utility\Utilities.class
+drivers\DriverFactory.class
+drivers\DriverHolder.class
+Pages\P02_Login.class
+ScreenRecorder\screenRecorder.class

@@ -13,7 +13,7 @@ public class TC01_Registration extends TestBase{
     public static String firstName = faker.name().firstName();
     public static String lastName = faker.name().lastName();
     public static String phoneNumber = faker.number().digits(10);
-    public static String USERNAME=Utilities.getData(System.getProperty("user.dir")+"/src/test/resources/data/logindata.json","username");
+    public static String USERNAME;
     public static String PASSWORD=Utilities.getData(System.getProperty("user.dir")+"/src/test/resources/data/logindata.json","password");
 
 
@@ -21,6 +21,7 @@ public class TC01_Registration extends TestBase{
     @Description("Register with valid data")
     @Severity(SeverityLevel.CRITICAL)
     public void registerNewUser_P() throws InterruptedException {
+        USERNAME= faker.internet().emailAddress();
         new P01_Registration(driver).clickMyAccount().openRegisterPage().enterFirstName(firstName).enterLastName(lastName)
                 .enterPhone(phoneNumber).enterUsername(USERNAME).enterPassword(PASSWORD).enterConfirmPassword(PASSWORD).clickPolicy().clickRegisterButton();
         Utilities.captureScreenShot(driver,"Registration_P");
